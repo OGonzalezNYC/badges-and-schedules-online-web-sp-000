@@ -8,7 +8,11 @@ end
 #   end
 # end
 
-
+def batch_badge_creator(array)
+  array,mao do |name|
+    badge_maker(name)
+  end
+end
 
 
 
